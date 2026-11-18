@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Ph.D. Student in Bioengineering · <a href='https://www.iopticslab.seas.ucla.edu/'>Intelligent Optics Laboratory</a> · University of California, Los Angeles"
+subtitle: "Ph.D. Student in Bioengineering · <a href='https://www.iopticslab.seas.ucla.edu/'>Intelligent Optics Laboratory</a> · UCLA"
 
 profile:
   align: right
   image: # add a photo as assets/img/prof_pic.jpg and set this to prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Department of Bioengineering</p>
-    <p>University of California, Los Angeles</p>
-    <p>Los Angeles, CA</p>
+  more_info: # affiliation lines shown under the photo, e.g. <p>Department of Bioengineering, UCLA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,10 +22,18 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. student in Bioengineering at the University of California, Los Angeles (UCLA), advised by [Prof. Liang Gao](https://www.iopticslab.seas.ucla.edu/) in the Intelligent Optics Laboratory. I joined the lab in 2024 as a research and development engineer and began my Ph.D. in 2025. I build optical imaging systems that capture fast biological dynamics in three dimensions, combining optical design, instrumentation, and computational reconstruction.
+I am a Ph.D. student in Bioengineering at UCLA, advised by [Prof. Liang Gao](https://www.iopticslab.seas.ucla.edu/) in the Intelligent Optics Laboratory. I build optical imaging systems that capture fast biological dynamics in three dimensions, from optical design and instrumentation to computational reconstruction.
 
-My current research centers on **squeezed light-field microscopy (SLIM)** in the second near-infrared window (**NIR-II**). By recording a rotated, anamorphically compressed light field on a single camera and reconstructing a volume from every frame, NIR-II SLIM images deep-tissue dynamics in vivo at high volume rates. I have also worked on a content-aware foveated camera that uses a spatial light modulator to track multiple targets.
+My current work centers on **squeezed light-field microscopy (SLIM)**: kilohertz volumetric imaging of neural activity, and its extension to the second near-infrared window (**NIR-II**) for imaging deep inside living tissue. Before UCLA, I developed non-bleaching super-resolution techniques with gold nanorods at the University of Michigan (M.S.), and I received my B.S. in Information Display from Kyung Hee University (summa cum laude).
 
-Before UCLA, I earned an M.S. in Electrical Engineering and Computer Sciences (Optics & Photonics track) at the University of Michigan, where I worked in the Bioplasmonics Laboratory with Prof. Somin Eunice Lee on non-bleaching super-resolution imaging: the phase intensity nanoscope (PINE) and interferometric phase intensity nanoscopy (iPINE). I received my B.S. in Information Display from Kyung Hee University, graduating summa cum laude as the top student in my department.
+<h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit">research</a></h2>
 
-**Research interests:** light-field and computational microscopy · NIR-II in vivo imaging · high-speed volumetric imaging · super-resolution and interferometric scattering microscopy · adaptive and foveated imaging
+{% assign research_projects = site.projects | where: "category", "research" | sort: "importance" %}
+
+<div class="projects">
+<div class="row row-cols-1 row-cols-md-3">
+{% for project in research_projects %}
+{% include projects.liquid %}
+{% endfor %}
+</div>
+</div>
