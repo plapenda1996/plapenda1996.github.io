@@ -2,13 +2,17 @@
 layout: page
 title: High-speed volumetric imaging
 description: Squeezed light-field microscopy (SLIM) for kilohertz 3D imaging of neural and cellular dynamics.
-img: assets/img/projects/high_speed_volumetric.png
+img: assets/img/projects/slim_vasculature.jpg
 importance: 1
 category: research
 related_publications: false
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/projects/high_speed_volumetric.png" class="img-fluid rounded z-depth-1" alt="Schematic: a sequence of imaged volumes and a voltage trace" %}
+{% include figure.liquid loading="eager" path="assets/img/projects/slim_schematic.png" class="img-fluid rounded z-depth-1" alt="SLIM principle: optical compression of the light field onto a narrow sensor region, then computational reconstruction of the 3D volume" %}
+
+<div class="caption">
+  Principle of SLIM. Images: Z. Wang et al., <a href="https://doi.org/10.1038/s41592-025-02843-8"><em>Nature Methods</em> 22, 2194 (2025)</a>, via the <a href="https://aaronzq.github.io/SLIM">SLIM project page</a>.
+</div>
 
 **UCLA Intelligent Optics Laboratory** · with Prof. Liang Gao
 
