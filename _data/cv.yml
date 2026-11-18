@@ -1,189 +1,208 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Do Young Kim
+  label: Ph.D. Student in Bioengineering, University of California, Los Angeles
+  email: plapenda@ucla.edu
+  website: https://plapenda1996.github.io
+  location: Los Angeles, CA
+  summary: Optical engineering researcher specializing in optics, photonics, and nanofabrication, with experience in super-resolution microscopy, interferometric scattering microscopy, light-field microscopy, spectroscopy, and 3D imaging. Currently developing high-speed volumetric microscopy for deep-tissue imaging in vivo.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: plapenda1996
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Los Angeles
+    region: CA
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of California, Los Angeles
+        location: Los Angeles, CA
+        area: Bioengineering
+        studyType: Ph.D.
+        start_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Intelligent Optics Laboratory (iOptics), advisor: Prof. Liang Gao"
+          - "GPA: 4.0/4.0"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Michigan
+        location: Ann Arbor, MI
+        area: Electrical Engineering and Computer Sciences (Optics & Photonics track)
+        studyType: M.S.
+        date: 2024-04
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 4.0/4.0"
+
+      - institution: Kyung Hee University
+        location: Seoul, South Korea
+        area: Information Display
+        studyType: B.S.
+        date: 2020-02
+        highlights:
+          - Graduated summa cum laude
+          - "GPA: 4.07/4.3"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of California, Los Angeles, Intelligent Optics Laboratory
+        position: Research and Development Engineer
+        location: Los Angeles, CA
+        start_date: 2024-08
+        end_date: 2025-07
+        summary: "Advisor: Dr. Liang Gao"
         highlights:
-          - Relativity
-          - Description 2.
+          - "**Content-aware foveated camera for multi-target tracking.** Developed the foveated camera, designed the dynamic optical architecture, optimized the target-tracking algorithms, and integrated the hardware and software interfaces."
+          - "**NIR-II SLIM for in vivo deep-tissue 3D imaging.** Developed the microscope, designed optical architectures including Dove prism arrays and cylindrical lenses in Zemax OpticStudio, optimized PSF calibration, and implemented Richardson–Lucy deconvolution in MATLAB and Python."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Michigan, Bioplasmonics Laboratory
+        position: Graduate Researcher
+        location: Ann Arbor, MI
+        start_date: 2022-09
+        end_date: 2024-05
+        summary: "Advisor: Dr. Somin Eunice Lee"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "**Phase intensity nanoscope (PINE).** Developed a super-resolution method that operates without photobleaching by imaging gold nanorods at different polarization states and localizing them below the diffraction limit with the FISTA algorithm."
+          - "**Soft multimaterial photonic devices for plasmonic super-resolution imaging.** Built a compact integrated nanoscopic correction (mINC) device from liquid crystal and soft materials with a film polarizer and a film quarter-wave plate; the applied voltage tunes the phase retardation to acquire different polarization states."
+          - "**Interferometric phase intensity nanoscopy (iPINE).** Built an interferometric scattering (iSCAT) imaging system with a LabVIEW-controlled phase-intensity module (liquid crystal, quarter-wave plate, and linear polarizer), extracted nanorod phase from elliptical Airy patterns, and reconstructed images with FISTA."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Kyung Hee University Research Institute of Industry-University Cooperation Foundation
+        position: Researcher
+        location: Seoul, South Korea
+        start_date: 2022-02
+        end_date: 2022-07
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "**Light-field extraction from multi-focus images.** Developed an algorithm that extracts 4D light-field information from a few images taken at different focal points using geometric transformations; avoiding 2D Fourier transforms shortens computation, and the method handles arbitrary point-spread functions for sub-diffraction localization."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Kyung Hee University, Quantum Information Display Laboratory
+        position: Undergraduate Researcher
+        location: Seoul, South Korea
+        start_date: 2019-07
+        end_date: 2020-04
+        summary: "Advisor: Dr. Jaewu Choi"
+        highlights:
+          - "**Strain-dependent electrical and optical properties of single-layer polycrystalline graphene.** Grew graphene by PECVD, transferred it to a self-developed strain device, designed the measurement station, and analyzed the optical changes under strain."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Kyung Hee University, Diouf Laboratory
+        position: Undergraduate Researcher
+        location: Seoul, South Korea
+        start_date: 2017-08
+        end_date: 2018-12
+        summary: "Advisor: Dr. Baye Boucar Diouf"
+        highlights:
+          - "**Kerr microscope for magnetic domains of powdered ferromagnetic materials.** Measured the magneto-optical Kerr effect with a 638 nm laser under coil-controlled magnetization; prepared co-sputtered and spin-coated Fe powder films and characterized them by SEM."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "NIR-II squeezed light-field microscopy enables high-speed volumetric imaging of deep-tissue dynamics in vivo"
+        summary: '**Do Young Kim\***, Zihan Zang\*, Eric Y. Lin\*, Ruixuan Zhao, Jing Wang, Tzung Hsiai, Ellen M. Sletten, Liang Gao (\* equal contribution)'
+        publisher: Nature Communications (under review)
+        releaseDate: 2026
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: Content-aware foveated camera for multi-target tracking
+        summary: 'Zihan Zang\*, **Do Young Kim\***, Yifeng Zeng, Liang Gao'
+        publisher: Optics Express 33(20), 43359
+        releaseDate: 2025-10-02
+        url: https://doi.org/10.1364/OE.577673
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Interferometric Phase Intensity Nanoscopy (iPINE), Revealing Nanostructural Features, Resolves Proximal Nanometer Objects below the Diffraction Limit: Implications in Long-Time Super-Resolution of Biological Dynamics"
+        summary: 'Guangjie Cui\*, **Do Young Kim\***, Di Zu, Guanbo Chai, Somin Eunice Lee'
+        publisher: ACS Applied Nano Materials 7(16), 18443–18449
+        releaseDate: 2024
+        url: https://doi.org/10.1021/acsanm.3c04361
+
+      - title: Phase intensity nanoscope (PINE) opens long-time investigation windows of living matter
+        summary: 'Guangjie Cui\*, Yunbo Liu\*, Di Zu, Xintao Zhao, Zhijia Zhang, **Do Young Kim**, Pramith Senaratne, Aaron Fox, David Sept, Younggeun Park, Somin Eunice Lee'
+        publisher: Nature Communications 14, 4318
+        releaseDate: 2023-07-18
+        url: https://doi.org/10.1038/s41467-023-39624-w
+
+    Conference Proceedings:
+      - bullet: "**D. Y. Kim**, G. Cui, S. E. Lee, \"Interferometric phase-intensity nanoscopy,\" _Proc. SPIE_ 12860, Plasmonics in Biology and Medicine XXI, 1286005 (2024)."
+      - bullet: "G. Cui, **D. Y. Kim**, D. Zu, G. Chai, S. E. Lee, \"Sub-10nm nanoscopic imaging reveals sub-10nm cellular architectures,\" _Proc. SPIE_ 12860, Plasmonics in Biology and Medicine XXI, 1286008 (2024)."
+      - bullet: "G. Cui, Y. Liu, D. Zu, **D. Y. Kim**, S. E. Lee, \"Long-time nanoscopic bioimaging by phase-intensity nanoscopy,\" _Proc. SPIE_ 12852, Quantitative Phase Imaging X, 1285204 (2024)."
+      - bullet: "M. Choi, **D. Y. Kim**, et al., \"Extraction algorithm of light field information from multi-focus images,\" Optics and Photonics Congress, T2F-III.03, Jeju, South Korea (2022)."
+
+    Conference Presentations:
+      - bullet: "**D. Y. Kim** (speaker), \"NIR-II SLIM enables high-speed 3D imaging of deep-tissue dynamics in vivo,\" SPIE Photonics West BiOS 2027, oral, San Francisco, CA, Jan 30 – Feb 4, 2027."
+      - bullet: "O. Benshlomo (speaker), **D. Y. Kim**, \"SLiM 2.0: Breaking speed limits in sCMOS sensors for volumetric neural voltage imaging,\" SPIE Photonics West BiOS 2027, oral, San Francisco, CA, Jan 30 – Feb 4, 2027."
+      - bullet: "**D. Y. Kim** (speaker), \"Interferometric phase-intensity nanoscopy,\" SPIE Photonics West BiOS 2024, oral, San Francisco, CA, Jan 28–29, 2024."
+      - bullet: "G. Cui, **D. Y. Kim** (speaker), \"Sub-10nm nanoscopic imaging reveals sub-10nm cellular architectures,\" SPIE Photonics West BiOS 2024, oral, San Francisco, CA, Jan 28–29, 2024."
+      - bullet: "G. Cui, Y. Liu, D. Zu, **D. Y. Kim**, S. E. Lee (speaker), \"Long-time nanoscopic bioimaging by phase-intensity nanoscopy,\" SPIE Photonics West BiOS 2024, oral, San Francisco, CA, Jan 28–29, 2024."
+      - bullet: "G. Cui (speaker), **D. Y. Kim**, \"Soft multimaterial photonic devices for plasmonic super-resolution imaging,\" SPIE Photonics West BiOS 2023, oral, San Francisco, CA, Jan 29–30, 2023."
+      - bullet: "M. Choi (speaker), **D. Y. Kim**, \"Extraction algorithm of light field information from multi-focus images,\" Optics and Photonics Congress 2022, oral, Jeju, South Korea, Jul 3–6, 2022."
+
+    Patent:
+      - bullet: "L. Gao, Z. Zang, **D. Y. Kim**, \"High-speed volumetric imaging of deep-tissue dynamics in vivo with NIR-II squeezed light-field microscopy,\" provisional patent application (2026)."
+
+    Honors and Awards:
+      - title: Fall 2026 Bioengineering Graduate Fellowship
+        awarder: University of California, Los Angeles
+        date: 2026-09
+      - title: Best Poster Award
+        awarder: Gordon Research Conference on Optics and Photonics in Medicine and Biology
+        date: 2026-07
+      - title: Korean Government Scholarship Program
+        awarder: Government of Korea
+        date: 2025-09
+      - title: Graduate Dean's Scholar Award
+        awarder: University of California, Los Angeles
+        date: 2025-09
+      - title: Arts Integrative Interdisciplinary Research (AiiR) Grant
+        awarder: University of Michigan
+        date: 2024-01
+      - title: Rackham Travel Grant
+        awarder: University of Michigan
+        date: 2024-01
+      - title: Top Student in Department
+        awarder: Kyung Hee University
+        date: 2020-02
+      - title: National Science & Technology Scholarship
+        awarder: Korea Student Aid Foundation
+        date: 2018-03
+        summary: Spring 2018 – Fall 2019
+      - title: Superiority Scholarship
+        awarder: Kyung Hee University
+        date: 2016-09
+        summary: Fall 2016 – Fall 2017
+      - title: Bright Society Scholarship
+        awarder: Kyung Hee University
+        date: 2016-09
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Lab skills
+        keywords:
+          - PECVD
+          - UV-visible spectrophotometer
+          - Cyclic voltammetry
+          - Spin coater
+          - RF sputter
+          - Polarimeter
+          - SEM
+          - AFM
+          - Alpha step
+          - Optical microscope
+          - UV exposure unit
+          - Probe station
+          - Oscilloscope
+          - Function generator
+          - Picoammeter
+          - Nanovoltmeter
+          - Piezoelectric actuators
+          - Vacuum pumps (rotary, oil diffusion)
+          - "Ti:Sapphire laser"
+          - Oil-immersion optical microscope
+          - Live-cell imaging unit
+      - name: Computer skills
+        keywords:
+          - MATLAB
+          - Python
+          - Zemax OpticStudio
+          - COMSOL
+          - LabVIEW
+          - ImageJ
+          - Origin
+          - SolidWorks
+          - Adobe Studio
+          - Microsoft Office
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Outreach:
+      - bullet: "Freelance director of photography (volunteer), Ann Arbor, MI, Aug 2022 – May 2025: filmed and edited three experimental performance videos by Korean contemporary artist Okyoung Noh, exhibited at the Ann Arbor Art Center."
+      - bullet: "Korea Volunteer Center, Seoul, Korea, Aug 2016 – Jan 2020: 32 volunteer activities (165.5 hours), including teaching socially and economically disadvantaged youth and providing food to isolated people."

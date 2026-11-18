@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects, from current work at UCLA to earlier work at Michigan and Kyung Hee.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
