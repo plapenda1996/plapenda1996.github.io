@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Deep-tissue NIR-II imaging
+title: Deep-tissue NIR‑II imaging
 description: NIR-II squeezed light-field microscopy for high-speed volumetric imaging deep inside living tissue.
 img: assets/img/projects/deep_tissue_nir2.png
 importance: 2
