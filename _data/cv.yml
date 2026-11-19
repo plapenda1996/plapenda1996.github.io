@@ -92,9 +92,10 @@ cv:
 
     Publications:
       - title: "NIR-II squeezed light-field microscopy enables high-speed volumetric imaging of deep-tissue dynamics in vivo"
-        summary: '**Do Young Kim\***, Zihan Zang\*, Eric Y. Lin\*, Ruixuan Zhao, Jing Wang, Tzung Hsiai, Ellen M. Sletten, Liang Gao (\* equal contribution)'
-        publisher: Nature Communications (under review)
+        summary: '**Do Young Kim\***, Zihan Zang\*, Eric Y. Lin\*, Ruixuan Zhao, Jing Wang, Chen Yuan Kam, Tzung K. Hsiai, Ellen M. Sletten, Liang Gao (\* equal contribution)'
+        publisher: bioRxiv; under review at Nature Communications
         releaseDate: 2026
+        url: https://doi.org/10.64898/2026.08.13.744709
 
       - title: Content-aware foveated camera for multi-target tracking
         summary: 'Zihan Zang\*, **Do Young Kim\***, Yifeng Zeng, Liang Gao'

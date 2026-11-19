@@ -2,13 +2,17 @@
 layout: page
 title: Super-resolution techniques
 description: Non-bleaching super-resolution imaging with gold nanorods, from the phase intensity nanoscope (PINE) to interferometric PINE (iPINE).
-img: assets/img/projects/super_resolution.png
+img: assets/img/projects/ipine_fig1.jpg
 importance: 3
 category: research
 related_publications: false
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/projects/super_resolution.png" class="img-fluid rounded z-depth-1" alt="Schematic: one diffraction-limited spot resolved into two nanorods with different orientations" %}
+{% include figure.liquid loading="eager" path="assets/img/projects/ipine_fig1.jpg" class="img-fluid rounded z-depth-1" alt="iPINE: gold nanorods resolved inside a cell, and the interferometric scattering microscope with the phase-intensity device in its detection path" %}
+
+<div class="caption">
+  iPINE resolves neighboring gold nanorods (a) with a phase-intensity (PI) device in the detection path of an interferometric scattering microscope (b). Image: G. Cui, D. Y. Kim et al., <a href="https://doi.org/10.1021/acsanm.3c04361"><em>ACS Applied Nano Materials</em> 7, 18443 (2024)</a>, Fig. 1.
+</div>
 
 **University of Michigan, Bioplasmonics Laboratory** · with Prof. Somin Eunice Lee · 2022 – 2024
 

@@ -2,13 +2,17 @@
 layout: page
 title: Foveated imaging
 description: A content-aware camera that tracks multiple targets by steering high-resolution foveae with a spatial light modulator.
-img: assets/img/projects/foveated_imaging.png
+img: assets/img/projects/foveated_camera_fig2.jpg
 importance: 1
 category: side projects
 related_publications: false
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/projects/foveated_imaging.png" class="img-fluid rounded z-depth-1" alt="Schematic: a coarse wide-field view with three high-resolution windows tracking moving targets" %}
+{% include figure.liquid loading="eager" path="assets/img/projects/foveated_camera_fig2.jpg" class="img-fluid rounded z-depth-1" alt="System overview: a spatial light modulator steers foveae onto targets in a dynamic scene, and a content-aware algorithm updates the SLM phase from the sensor images" %}
+
+<div class="caption">
+  System overview of the content-aware foveated camera. Image: Z. Zang, D. Y. Kim et al., <a href="https://arxiv.org/abs/2509.01165">arXiv:2509.01165</a>, Fig. 2; published in <a href="https://doi.org/10.1364/OE.577673"><em>Optics Express</em> 33, 43359 (2025)</a>.
+</div>
 
 **UCLA Intelligent Optics Laboratory** · with Zihan Zang and Prof. Liang Gao · 2024 – 2025
 
